@@ -5,7 +5,7 @@ import os
 
 
 with open('httpserver.conf', 'r') as f:
-    PORT = int(f.readlines()[3])
+    PORT = int(f.readlines()[1])
 
 f.close()
 
